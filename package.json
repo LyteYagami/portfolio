@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyteYagami/portfolio.git"
+  },
+  "author": "Yusuf Farhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyteYagami/portfolio/issues"
+  },
+  "homepage": "https://github.com/LyteYagami/portfolio#readme",
+  "dependencies": {
+    "node": "^13.10.1"
+  }
+}
