@@ -29,8 +29,9 @@
 
 	ol, ul {
 		list-style: none;
+		font-family: 'Itim', cursive;
 	}
-
+	
 	blockquote, q {
 		quotes: none;
 	}
@@ -48,6 +49,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+
 
 /* Box Model */
 
@@ -1614,7 +1616,7 @@
 
 	body {
 		background-color: #1b1b1b;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgb(255, 255, 255);
 	}
 
 	body, input, select, textarea {
@@ -3351,6 +3353,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+			font-size: 35px;
 		}
 
 			#header .logo a {
@@ -3740,18 +3743,18 @@
 			-moz-transition: opacity 3s ease;
 			-webkit-transition: opacity 3s ease;
 			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
+			transition: opacity 1.25s ease;
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #000;
+			background-color: rgb(202, 185, 108);
 			height: 100%;
 			left: 0;
-			opacity: 0.45;
 			position: absolute;
+			opacity: 0.1;
 			top: 0;
 			width: 100%;
 			z-index: 1;
@@ -3873,9 +3876,10 @@
 
 			#post ul.actions li {
 				display: inline-block;
-				width: 49%;
+				width: 30%;
 				margin: 0;
 				padding: 0;
+				;
 			}
 
 		}
